@@ -1,0 +1,43 @@
+{
+    "Resolution": [1080, 980],
+
+    "Menu": {
+        "style": "freesansbold.ttf",
+        "color": [255, 0, 0],
+        "size": 32,
+        "bg_color" : [255, 0, 0]
+    },
+
+    "setup":{
+        "no_of_enemies": 10,
+        "style": "freesansbold.ttf",
+        "color": "white",
+        "size": 50,
+        "icon": "data/game_icon.png",
+        "background_img": "data/Background.jpg",
+        "Start_on_fullscreen": 0,
+        "Manual_wait": 5,
+        "caption": "Alien Slayer"
+    },
+
+    "score multiplier": 1,
+
+    "Invader":{
+        "img": "data/invader.png",
+        "scale": [100, 100],
+        "speed": 0.004
+    },
+
+    "Alien":{
+        "img": "data/enemy.png",
+        "scale": [50, 75],
+        "speed": 0.0003,
+        "respawn time": 10
+    },
+
+    "Bullet": {
+        "img": "data/redLaserRay.png",
+        "scale": [15, 25],
+        "speed": 0.002
+    }
+}
