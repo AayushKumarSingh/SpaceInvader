@@ -1,0 +1,47 @@
+{
+    "Resolution": [1080, 720],
+
+    "Menu": {
+
+        "font": {
+            "style": "seogui",
+            "color": [255, 0, 0],
+            "size": 70
+        },
+
+        "bg_color" : [0, 100, 128]
+    },
+
+    "setup":{
+        "no_of_enemies": 5,
+        "style": "seogui",
+        "color": "white",
+        "size": 50,
+        "icon": "data/game_icon.png",
+        "background_img": "data/Background.jpg",
+        "Start_on_fullscreen": 0,
+        "Manual_wait": 12,
+        "caption": "Galactic Shooter"
+    },
+
+    "score multiplier": 60,
+
+    "Invader":{
+        "img": "data/invader.png",
+        "scale": [100, 100],
+        "speed": 0.006
+    },
+
+    "Alien":{
+        "img": "data/enemy.png",
+        "scale": [50, 75],
+        "speed": 0.0002,
+        "respawn time": 10
+    },
+
+    "Bullet": {
+        "img": "data/redLaserRay.png",
+        "scale": [15, 25],
+        "speed": 0.03
+    }
+}
